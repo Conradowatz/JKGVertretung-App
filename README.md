@@ -7,7 +7,7 @@ Derzeit nicht mehr in aktiver Entwicklung. Deshalb habe ich mich entschieden den
 # Entwickler
 
 * Conrad Schmidt
- * [owatz.ne](https://owatz.net/) - <conrad@owatz.de>
+ * [owatz.net](https://owatz.net/) - <conrad@owatz.de>
 
 
 # License
