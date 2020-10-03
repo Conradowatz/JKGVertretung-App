@@ -68,6 +68,7 @@ public class Fach extends BaseModel {
 
     public Fach(String name) {
         this.name = name;
+        this.notenModus = MODE_5050;
     }
 
     public String getName() {
@@ -140,14 +141,12 @@ public class Fach extends BaseModel {
         }
 
         switch (notenModus) {
-            case MODE_5050:
-                return 0.5*klausuren+0.5*tests;
             case MODE_6040:
                 return 0.4*klausuren+0.6*tests;
             case MODE_7030:
                 return 0.3*klausuren+0.7*tests;
-            default:
-                return null;
+            default: //MODE_5050
+                return 0.5*klausuren+0.5*tests;
         }
 
     }
